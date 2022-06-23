@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.clear::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+img {
+  max-width: 100%;
+}
+
+.mid-content {
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* Header Section CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+  font-family: "Work Sans", sans-serif;
+}
+
+.header-section {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 5px 0;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header-section a {
+  color: #202020;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.header-logo {
+  width: 30%;
+}
+
+.logo img {
+  height: 60px;
+  float: left;
+  margin-right: 10px;
+}
+
+.logo span {
+  display: inline-block;
+  margin-top: 18px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header-logo .logo img {
+  height: 60px;
+}
+
+.header-menu {
+  width: 56%;
+}
+
+.header-button {
+  width: 14%;
+  text-align: right;
+}
+
+.header-btn {
+  border: 2px solid #f23c5a;
+  display: inline-block;
+  padding: 10px 21px;
+  margin-top: 8px;
+  border-radius: 25px;
+  color: #f23c5a !important;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.header-btn:hover {
+  color: #fff !important;
+  background-color: #f23c5a;
+  box-shadow: 4px 4px 25px 0 rgba(242, 60, 90, 0.6);
+}
+
+.primary-menu {
+}
+
+.primary-menu ul {
+}
+
+.primary-menu ul li {
+  display: inline-block;
+}
+
+.primary-menu ul li a {
+  display: block;
+  padding: 0 20px;
+  font-size: 15px;
+  line-height: 60px;
+  transition: 0.5s;
+}
+
+.primary-menu ul li a:hover {
+  color: #f23c5a;
+}
+
+/* Dropdown Menu CSS */
+
+.primary-menu ul li {
+  position: relative;
+}
+
+.primary-menu ul li ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 250px;
+  background: #fff;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+  transform: scaleY(0);
+  transform-origin: top center;
+}
+
+.primary-menu ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  transform: scaleY(1);
+}
+
+.primary-menu ul li ul li {
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+/* Default Button */
+.default-btn {
+  text-decoration: none;
+  color: #505050;
+  background-color: #fff;
+  padding: 15px 34px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+
+.default-btn:hover {
+  background: #f23c5a;
+  color: #fff;
+}
+
+/* Banner CSS */
+.banner-section {
+  background: url(/img/BehanceCovercopy.jpg) no-repeat center center;
+  background-size: cover;
+  padding: 150px 0;
+  position: relative;
+  margin-top: 65px;
+
+  z-index: 1;
+}
+
+/* .banner-section::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+
+  background: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+} */
+
+.banner-content {
+  color: #fff;
+}
+
+.banner-content h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.banner-content h2 {
+  font-size: 50px;
+  margin: 30px 0;
+}
+
+.banner-bottom {
+  background: #fff8f8;
+  padding: 100px 0;
+}
+
+.video-left {
+  width: 48%;
+  transition: 300ms;
+}
+
+.video-left:hover {
+  transform: scale(1.05);
+  box-shadow: 4px 4px 25px 0 rgba(131, 131, 131, 0.6);
+}
+
+.video-description {
+  width: 48%;
+}
+.video-description h3 {
+  font-size: 45px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+.video-description p {
+  color: #999999;
+  line-height: 2;
+  font-size: 14px;
+}
+
+/* Service Section CSS */
+
+.service-section {
+  background: #fff;
+  padding: 150px 0px;
+}
+
+.section-title h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.section-title p {
+  color: #949494;
+  font-size: 25px;
+}
+
+.services-items {
+  margin-top: 90px;
+  margin-left: 55px;
+}
+
+.service-box {
+  /* width: 30%; */
+  box-shadow: 4px 4px 25px 0 rgba(131, 131, 131, 0.2);
+  margin-right: 2%;
+  margin-bottom: 35px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  transition: 300ms;
+}
+
+.service-box:hover {
+  /* width: 30%; */
+  transform: scale(1.1);
+}
+
+.service-icon {
+  width: 55px;
+  min-height: 160px;
+  float: left;
+  font-size: 30px;
+  color: #6278df;
+  margin-right: 10px;
+}
+
+.service-content {
+  margin-top: 5;
+}
+.service-content h3 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.service-content p {
+  color: #949494;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.7em;
+}
+
+.service-content img {
+  width: 250px;
+}
