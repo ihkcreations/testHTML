@@ -191,7 +191,7 @@ span {
 
 /* Banner CSS */
 .banner-section {
-  background: url(/img/BehanceCovercopy.jpg) no-repeat center center;
+  background: url(./img/BehanceCovercopy.jpg) no-repeat center center;
   background-size: cover;
   padding: 150px 0;
   position: relative;
