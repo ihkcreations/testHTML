@@ -1,0 +1,7 @@
+hello this is testing file.
+
+need to check that if it is possible to upload a file into a existing repo from vscode according to chatgpt
+
+seems to me that it has worked but in the master branch.
+
+lets try pushing into main branch....
